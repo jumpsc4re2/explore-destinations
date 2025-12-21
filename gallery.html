@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Photo gallery of world destinations." />
+    <title>Gallery - ExploreTheWorld 🌎</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    
+
+    <main>
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <header class="section-header reveal">
+                    <h2>Gallery</h2>
+                    <p>Snapshots from journeys around the globe.</p>
+                </header>
+                <div class="gallery-grid">
+                    <img class="gallery-item reveal" src="images/china.jpg" data-full="images/china.jpg" alt="China" loading="lazy" />
+                    <img class="gallery-item reveal" src="images/la.jpg" data-full="images/la.jpg" alt="Los Angeles" loading="lazy" />
+                    <img class="gallery-item reveal" src="images/librty.jpg" data-full="images/librty.jpg" alt="Liberty" loading="lazy" />
+                    <img class="gallery-item reveal" src="images/pyramids.jpg" data-full="images/pyramids.jpg" alt="Pyramids" loading="lazy" />
+                    <img class="gallery-item reveal" src="images/rome.jpg" data-full="images/rome.jpg" alt="Rome" loading="lazy" />
+                    <img class="gallery-item reveal" src="images/russia.jpg" data-full="images/russia.jpg" alt="Russia" loading="lazy" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" aria-hidden="true" role="dialog">
+        <button class="lightbox-close" aria-label="Close">
+            <i class="ph ph-x"></i>
+        </button>
+        <img id="lightbox-image" src="" alt="Expanded view" />
+    </div>
+
+    <script src="./layout.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
