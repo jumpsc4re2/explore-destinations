@@ -1,4 +1,4 @@
-# ExploreTheWorld
+# Explore Destinations
 
 A responsive, static travel-inspiration website for discovering destinations, browsing travel tips and facts, and viewing a curated photo gallery.
 
